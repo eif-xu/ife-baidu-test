@@ -155,7 +155,8 @@ table{
 .form-left{
 	display: inline-block;
 	width: 200px;
-	direction: rtl;
+	// direction: rtl;
+	text-align: right;
 	height: 22px;
 }
 
