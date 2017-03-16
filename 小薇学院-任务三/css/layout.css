@@ -1,0 +1,86 @@
+.page{
+	padding: 20px;
+	background: #eee;
+	border: 1px solid #999;
+
+}
+.main {
+		margin:0 200px;
+		background:#fff;
+		}
+
+.left{  position:absolute;
+		top:0;
+		left:0;
+		width:200px;
+		background:#fff;
+		height:100%;
+	}  
+.right{ position:absolute;
+		top:0;
+		right:0;
+		width:120px;
+		background:#fff;
+		height:100%;
+}
+
+ .left img{
+	display: inline;
+}
+
+.left p{
+	display: inline;
+}
+
+
+// 实验中的第二套方案
+// article{
+// 	padding: 20px;
+// 	background:#eee;
+// 	border: 1px solid #999;
+// 	// overflow: hidden;
+// }
+
+// article:after{
+// 	content: ".";
+// 	display: block;
+// 	height: 0;
+// 	visibility: hidden;
+// 	clear: both;
+// }
+
+// figure{
+// 	width: 200px;
+// 	height: 100px;
+// 	float: left;
+// 	background: #fff;
+// 	margin: 20px;
+// 	border: 1px solid #999;
+// }
+
+// // figure img{
+// // 	padding: 20px;
+// // 	display: inline-block;
+// // }
+
+// // .img-right{
+// // 	margin-bottom: 40px;
+// // }
+
+
+
+// aside{
+// 	float: right;
+// 	width: 120px;
+// 	background: #fff;
+// 	border: 1px solid #999;
+// }
+
+// section{
+// 	background: #fff;
+// 	border: 1px solid #999;
+// 	float: left;
+// }
+
+
+
