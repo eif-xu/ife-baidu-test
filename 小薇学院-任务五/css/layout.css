@@ -1,0 +1,17 @@
+body{
+	background: #DEDEDE;
+}
+
+aside{
+	position: absolute;
+	left: 830px;
+	top: 60px;
+	width: 500px;
+	margin: 20px 20px 20px 20px;
+	box-shadow: 1px 1px 5px;
+
+}
+
+.layout{
+	margin-right: 500px;
+}
