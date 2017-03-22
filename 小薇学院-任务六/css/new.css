@@ -1,0 +1,300 @@
+article{
+	margin-top: 35px;
+}
+.img-main{
+	height: 301px;
+	width: 640px;
+	display: inline-block;
+	position: relative;
+}
+
+.mask-1,.mask-2{
+	width: 190px;
+	height: 300px;
+	opacity: 0.5;
+}
+
+.mask-1{
+	background:#a0c5ac;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.mask-2{
+	background:#e6bac0;
+	position: absolute;
+	top:0;
+	right: 0;
+}
+
+.aside{
+	border-top:2px solid #cc8091;
+	width: 203px;
+	height: 301px;
+	display: inline-block;
+	float: right;
+	font-family: 'microsoft Yahei';
+	font-size: 12px;
+}
+
+
+.aside1{
+	font-size:2em;
+	color: #000000;
+	line-height: 40px;
+	text-decoration: underline;
+}
+.aside2{
+	font-size: 1em;
+	color: #676767;
+	font-family:'KaiTi';
+	line-height: 10px;
+}
+p:nth-child(5){
+	font-size: 9.75em;
+	color: #75b86b;
+	text-decoration: underline;
+	font-style:oblique;
+}
+p:nth-child(6){
+	font-size: 4.58em;
+	color: #cc8091;
+	display: inline-block;
+}
+p:nth-child(7){
+	font-size: 1.75em;
+	color: #cc8091;
+	display: inline-block;
+}
+p:nth-child(8){
+	font-size: 1em;
+	color: #cc8091;
+	display: inline-block;
+}
+
+section{
+	margin-top: 15px;
+}
+.font{
+	-webkit-column-count: 3;
+	-webkit-column-gap:12px;
+	font-family: 'microsoft Yahei';
+	font-size: 12px;
+	line-height: 16px;
+	opacity: 0.7;
+	color: #231815;
+	width: 641px;
+}
+.title{
+	font-size: 16px;
+	color: #d2994f;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.title2{
+	font-size: 12px;
+	color: #cd4a48;
+	font-family:'microsoft Yahei';
+	line-height: 16px;
+	opacity: 0.7;
+	font-style:oblique;
+}
+
+.section-left{
+	width: 415px;
+	display: inline-block;
+
+}
+
+.section-right{
+	width: 459px;
+	display: inline-block;
+	margin-left: 20px;
+}
+.frist-font{
+	font-size: 72px;
+	color: #f5e327;
+	font-family: 'SimHei';
+	font-weight: bold;
+	font-style: oblique;
+}
+
+.section-left-title{
+	border-bottom: 2px solid #11456b;
+	padding-bottom: 20px;
+	margin-bottom: 130px;
+}
+
+.section-font{
+	font-size: 42px;
+	color: #11456b;
+	font-family: 'SimHei';
+	font-weight: bold;
+}
+
+.section-font2{
+	font-size: 33px;
+	line-height: 16px;
+}
+
+.section-left-artice{
+	margin-bottom: 50px;
+	font-size: 12px;
+	color: #767777;
+	font-family: 'SimSum';
+	line-height: 16px;
+	text-indent:10px;
+	position: relative;
+	top: -100px;
+}
+
+.section-left-artice img{
+	float: right;
+}
+
+.section-left-artice:first-letter{
+	font-size: 70px;
+	color: #f5e327;
+	font-family: 'microsoft Yahei';
+	float: left;
+	height: 30px;
+	line-height: 1;
+}
+
+.section-right-img{
+	width: 458px;
+	height: 275px;
+	position: relative;
+}
+
+.mask-3{
+	position: absolute;
+	bottom: 17px;
+	left: 0;
+	background: #86837e;
+	width: 458px;
+	height: 61px;
+	opacity: 0.7;
+}
+.box-2{
+	margin-left: 10px;
+	display: inline-block;
+	border-left: 2px solid #72b16a;
+	font-size: 26px;
+	color: #fff;
+	font-family: 'microsoft Yahei';
+	margin-top: 10px;
+}
+.section-right-img span{
+	font-size: 12px;
+	color: #72b16a;
+	font-style: oblique;
+	font-family: 'microsoft Yahei';
+	line-height: 140%; 
+	margin-top: 10px;
+	margin-left: 5px; 
+}
+
+
+
+
+
+
+.section-right-title{
+	width: 459px;
+	height: 318px;
+	margin-top: 20px;
+	background: #eeeed6;
+	overflow: hidden;
+}
+
+.s-r-s-l{
+	width: 260px;
+	height: 160px;
+	background: #d55d5c;
+	display: inline-block;
+}
+.font2{
+	font-size: 110px;
+	color: #ffffff;
+	font-family: 'microsoft Yahei';
+	display: inline-block;
+	margin-left: 10px;
+	padding-top: 10px;
+}
+.box{
+	border-left: 2px solid #ffffff;
+	display: inline-block;
+	float: right;
+	margin-top: -110px;
+	margin-left: 80px;
+}
+.box-3{
+	font-size: 21px;
+	font-weight: bold;
+	font-style: oblique;
+	line-height: 24px;
+	color: #ffffff;
+}
+
+.box-4{
+	font-size: 12px;
+	color: #ffffff;
+	font-family: 'SimHei';
+	line-height: 6px;
+}
+
+.list{
+	margin:20px 95px;
+}
+
+.list li{
+	font-size: 16px;
+	color: #5a5b5b;
+	font-family: 'SimSum';
+	line-height: 20px;
+	text-align: left;
+	margin-top: 10px;
+}
+
+li:before{
+	width: 0;
+	height: 0;
+	content: "";
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 10px solid #5a5b5b;
+	position: relative;
+	top: -15px;
+}
+
+blockquote{
+	font-size: 14px;
+	color: #5a5b5b;
+	line-height: 16px;
+	font-family: 'SimHei';
+	font-style: oblique;
+	display: inline-block;
+	width: 199px;
+	float: right;
+}
+
+blockquote:before{
+	font-size: 72px;
+	content: open-quote;
+	margin-right: 10px;
+	vertical-align: -0.4em;
+	color:#d55d5c; 
+	line-height: 10px;
+}
+
+blockquote:after{
+	font-size: 72px;
+	content: close-quote;
+	margin-right: 10px;
+	vertical-align: -0.7em;
+	color:#d55d5c;
+	line-height: 10px; 
+}
