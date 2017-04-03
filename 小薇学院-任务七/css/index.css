@@ -177,3 +177,198 @@ header li img{
 }
 .img-list p{padding-top:10px}
 .img-list span{font-size:18px;color:#000;}
+
+	/* -----END------------- */
+
+	/*------图片与文字--------*/
+.PFsection{}
+.PFsection .box-top-left{
+	width:66.66%;
+	height:563px;
+	position:relative;
+	display:inline-block;
+	overflow: hidden;
+}
+.PFsection .box-top-left img{
+	width:100%;height:100%;
+}
+.PFsection .location-2{
+	color:#fff;
+	text-align:center;
+	position:absolute;
+	top:136px;left:240px;
+	font-family:'Microsoft YaHei';
+}
+.PFsection .middle{font-size:50px}
+.PFsection .big{font-size:158px}
+.PFsection .small{font-size:21px}
+
+
+.PFsection .box-top-right{
+	width:32.99%;height:563px;
+	display: inline-block;
+	position:relative;
+	font-family: "simsun";
+}
+.PFsection .box-top-right .box{
+	position:absolute;top:166px;left:72px;
+}
+.PFsection .box-top-right::before{
+	position:absolute;top:268px;left:-30px;
+	content:"";
+	display:table;
+	border-right:35px solid #fff;
+	border-top: 35px solid transparent;
+	border-bottom: 35px solid transparent;
+}
+.PFsection h1{
+	font-size:20px;
+	color:#000;
+	margin-bottom:30px;
+	text-align:center;
+}
+.PFsection .box-top-right span{color:#e74f4d;}
+.PFsection .box-top-right p{
+	color:#b7b7b7;
+	font-size:12px;
+	line-height:2;
+}
+.PFsection .moreThing,.moreThing2,.moreThing3{
+	text-align:center;
+	margin:0 auto;
+	margin-top:50px;
+	width:105px;height:34px;
+	border:2px solid #be4e48;
+}
+.PFsection .moreThing p{
+	font-size:15px;
+	color:#be4e48;
+}
+.PFsection .css2{
+	margin:0 auto;
+	margin-top:25px;
+	display:table;
+}
+.PFsection .css2 span{
+	width: 12px;height: 12px;
+	border-radius:50%;
+	border:2px solid #b7b7b7;
+	margin-left:15px;
+	display:inline-block;
+}
+.PFsection .css2 .frist{background:#b7b7b7;
+margin-left:0;}
+
+.PFsection .box{display:inline-block;overflow:hidden;}
+
+.PFsection .box-bottom-1,.box-bottom-2{
+	width:34%;
+	height:520px;
+	font-size:21px;
+	font-family: "SimHei";
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+	line-height:2;
+}
+.PFsection .box-bottom-1{
+	background:#e74f4d;
+	color:#fff;
+	
+}
+.PFsection .box-bottom-1 span{padding-bottom:26px;}
+.PFsection .box-bottom-1 .Wdown{border-bottom:2px solid #fff}
+.PFsection .box-bottom-1 .Rdown{border-bottom:2px solid #e74f4d;}
+.PFsection .moreThing2,.moreThing3{
+	margin-top:45px;
+	color:#fff;
+	border:2px solid #fff;
+	width:170px;height:44px;
+}
+.PFsection .box-bottom-2 .moreThing3{
+	color:#e74f4d;
+	border:2px solid #e74f4d;
+}
+
+.PFsection .box-bottom-3{
+	overflow:hidden;
+	display:table-cell;
+	width:33%;
+	position:relative;
+}
+.PFsection .box-bottom-3::before{
+	content:"";
+	position:absolute;top:268px;left:-20px;
+	border-left:35px solid #fff;
+	border-top:35px solid transparent;
+	border-bottom:35px solid transparent; 
+}
+
+/*-----标题过渡-----*/
+.volunteer{
+	height:300px;width:100%;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	text-align:center;
+	color:#b7b7b7;
+	margin-top:120px;
+}
+.volunteer h1{font-size:21px;
+	font-family: "SimHei";
+	color:#000;
+	margin-bottom:28px;
+}
+.volunteer span{
+	padding-bottom:12px;
+	border-bottom:2px solid #e74f4d;}
+
+
+	/*----end------*/
+
+/*----列表与表单---------*/
+.list-form{
+	height: 450px;
+	margin-left:138px;
+	margin-right:138px;
+	overflow:hidden;
+}
+.list-form .list2{
+	width:288px;
+	display:inline-block;
+}
+.list-form .form{
+	display:inline-block;
+
+
+	
+}
+
+.list-form .list2 li{
+	margin-bottom:33px;
+	font-size: 12px;
+	font-family: "simsun";
+	color:#9d9b9a;
+}
+.list-form .list2 h1{
+	font-size:14px;
+	font-family: "SimHei";
+	margin-bottom:26px;
+	color:#666160;
+}
+.list-form .triangle{
+	position:relative;
+	text-align:right;
+}
+.list-form .triangle::before{
+	position:absolute; top:3px;right:35px;
+	content: "";
+	display:inline-block;
+	width:6px;height:6px;
+	border-left:2px solid #000;
+	border-bottom: 2px solid #000;
+	transform:rotate(-45deg);
+}
+
+
+
+.list-form .form
