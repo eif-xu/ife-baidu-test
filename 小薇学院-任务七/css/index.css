@@ -259,7 +259,11 @@ header li img{
 .PFsection .css2 .frist{background:#b7b7b7;
 margin-left:0;}
 
-.PFsection .box{display:inline-block;overflow:hidden;}
+.PFsection .box{
+	display:inline-block;
+	overflow:hidden;
+	margin-top:-5px;
+}
 
 .PFsection .box-bottom-1,.box-bottom-2{
 	width:34%;
@@ -336,12 +340,7 @@ margin-left:0;}
 	width:288px;
 	display:inline-block;
 }
-.list-form .form{
-	display:inline-block;
 
-
-	
-}
 
 .list-form .list2 li{
 	margin-bottom:33px;
@@ -371,4 +370,105 @@ margin-left:0;}
 
 
 
-.list-form .form
+.list-form .form{display:inline-block;float:right;}
+.list-form .form ul{
+	width:640px;height:282px;
+	font-family:"simsun";
+	font-size:12px;
+	color:#777374;
+}
+.list-form .form ul li{
+	margin-bottom:16px;
+	overflow:hidden;
+}
+.list-form .form input{
+	display:inline-block;
+	float:left;
+	height:40px;
+	border:1px solid #ededee;
+	line-height:1em;
+	background:#ededee;
+}
+.list-form .form .left{width:308px;}
+.list-form .form .right{
+	width:308px;
+	margin-left:20px;
+}
+.list-form .form .text{
+	width:640px;
+	height:120px;
+	border:1px solid #ededee;
+	background:#ededee;
+	color:#a9a9a9;
+
+}
+.list-form .form .sumbit{
+	width:640px;
+	height: 38px;
+	text-align:center;
+	color:#000;
+}
+
+	/*-----End-----*/
+
+   /*-----通用尾部-----------*/
+.footer{background:#32353e;}
+.footer .footer-center{
+	height:200px;width:510px;
+	margin:0 auto;
+	padding-top:90px;
+	padding-bottom:70px;
+	text-align:center;
+	color:#fff;
+	font-size: 12px;
+	font-family:"simsun";
+}
+.footer .footer-center h1{
+	font-size:21px;
+	font-family:"SimHei";
+	padding-bottom:12px;
+}
+.footer .footer-center .input{
+	padding-top:30px;
+	overflow:hidden;
+	height:40px;
+}
+.footer .footer-center input{
+	width:430px;height:40px;
+	border:1px solid #fff;
+	display:inline-block;
+}
+.footer .footer-center a{
+	height:40px;
+	width:70px;
+	background:#6f7178;
+	color:#fff;
+	text-align:center;
+	display:inline-block;
+	font-family: "Microsoft YaHei";
+	font-size:15px;
+	line-height:40px;
+}
+.footer .footer-center img{
+	margin:0 auto;
+	padding-top:38px;
+}
+
+.footer .footer-sign{
+	height:58px;
+	background:#2f2f38;
+	color:#fff;
+	font-size: 12px;
+	font-family:"simsun"; 
+	overflow:hidden;
+}
+.footer .footer-sign p{
+	margin-left:100px;
+	margin-top:30px;
+}
+.footer .footer-sign a{
+	color:#fff;
+	float:right;
+	margin-right:18px;
+	margin-top:-15px;
+}

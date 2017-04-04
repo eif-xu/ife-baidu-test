@@ -149,8 +149,7 @@
 		<p>新世界的大家庭需要每一个热爱生活的人加莪u，如果你够年轻，有梦想，有激情<br>那就不要犹豫快来加入我们，成为改变生活的人</p>
 </section>
 	<!--   列表与表单   -->
-<aside>
-	<div class="list-form">
+<aside class="list-form">
 		<div class="list2">
 			<ul>
 				<li><h1>新世界志愿者协议</h1><p>加入新世界志愿者的人员必须遵循中华人民公和国相关法律法规，并且本着平等资源的原则.........</p><p class="triangle">more</p></li>
@@ -160,10 +159,20 @@
 		</div>
 		<div class="form">
 			<ul>
-				<li><p>姓名</p><input type="text" name="form1"><p>年龄</p><input type="text" name="form1"></li>
-				<li><p>联系方式</p><input type="text" name="form1"><p>联系地址</p><input type="text" name="form1"></li>
-				<li></li>  <!-- 文本域与css一起解决 -->
-				<li><input type="sumbit" name="form1" value="提交申请"></li>
+				<li>
+				<input type="text" name="form1" placeholder="&nbsp;&nbsp;&nbsp;姓名" class="left">
+				<input type="text" name="form1" placeholder="&nbsp;&nbsp;&nbsp;年龄" class="right">
+				</li>
+
+				<li>
+					<input type="text" name="form1" placeholder="&nbsp;&nbsp;&nbsp;联系方式" class="left">
+				    <input type="text" name="form1" placeholder="&nbsp;&nbsp;&nbsp;联系地址" class="right">
+				</li>
+
+				<li>
+					<textarea class="text">请简单描述您梦想的生活</textarea>
+				</li>
+				<li><input type="sumbit" name="form1" value="提交申请" class="sumbit"></li>
 			</ul>
 		</div>
 	</div>
@@ -174,7 +183,9 @@
 		<div class="footer-center">
 			<h1>联系我们</h1>
 			<p>为了更好的获取我们最新的产品资讯，您可以留下您的电子邮箱快速订阅我们产品资讯<br>也可以通过以下任何方式关注我们动态</p>
-			<input type="text" name="form2" value="sameone@email.com"><input type="sumbit" name="form2">
+			<div class="input">
+			<input type="text" name="form2" placeholder="sameone@email.com" ><a href="#">提交</a>
+			</div>
 			<img src="img/6.png">
 		</div>
 		<div class="footer-sign">
