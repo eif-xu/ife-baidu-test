@@ -1,0 +1,25 @@
+@media screen and (max-width:1024px;){
+	.layout{box-sizing:border-box;}
+	.block1,.block2,.block3.block4{
+		margin-left:-15px;
+		margin-right: -15px;
+		display:block;
+		width:100%
+	}
+	.cl-12{width:100%}
+	.cl-11{width:91.66667%}
+	.cl-10{width: 83.33332%}
+	.cl-9{width:75%}
+	.cl-8{width:66.66665%}
+	.cl-7{width: 58.33332%}
+	.cl-6{width: 50%}
+	.cl-5{width:41.6666665%}
+	.cl-4{width:33.3333332%}
+	.cl-3{width:25%}
+	.cl-2{width:16.6666665%}
+	.cl-1{width:100%}
+
+}
+
+
+@media screen and()

@@ -3,18 +3,50 @@
 <head>
 	<title>格栅化布局</title>
 	<meta charset="utf-8">
+	<!-- 屏幕像素等于实际像素的宽度 -->
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<!-- 默认使用最新的浏览器 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<!-- 使用bootstrap的方法进行布局使用width% -->
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- 使用font-size的大小与使用rem进行实现 -->
 	<link rel="stylesheet" type="text/css" href="style2.css">
+	<style type="text/css">
+		.block1{
+			background:#8080;
+		}
+		.block1-1,.block1-2,.block1-3,.block1-4,.block1-5{
+			height:50px;
+		}
+		.block1-1{background:#680;}
+		.block1-2{background:#142;}
+		.block1-3{background:#987;}
+		.block1-4{background:#732;}
+
+	</style>
 </head>
 <body>
 <header>
 	<nav>
 		<ul class="layout">
-			<li class="block"><p>块1</p><div class="b-inside"></div></li>
-			<li class="block"><p>块2</p><div class="b-inside"></div></li>
-			<li class="block"><p>块3</p><div class="b-inside"></div></li>
-			<li class="block"><p>块4</p><div class="b-inside"></div></li>
+			<li class="block1">
+				<div class="block1-1 col-8">行1块1</div>
+				<div class="block1-2 col-2">行1块2</div>
+				<div class="block1-3 col-2">行1块3</div>
+				<div class="block1-4 col-12">行1块4</div>
+			</li>
+			<li class="block2">
+				<div class="block2-1">行2块1</div>
+				<div class="block2-2">行2块2</div>
+				<div class="block2-3">行2块3</div>
+			</li>
+			<li class="block3">
+				<div class="block3-1">行3块1</div>
+				<div class="block3-2">行3块2</div>
+			</li>
+			<li class="block4">
+				<div class="block4-1">行4块1</div>
+			</li>
 		</ul>
 	</nav>
 </header>

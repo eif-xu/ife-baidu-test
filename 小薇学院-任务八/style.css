@@ -1,0 +1,20 @@
+html {font-size:50px;}
+body{font-size:24px}
+@media screen and(max-width:1024px){
+	.loyout{
+		box-sizing: border-box;
+		width:1024px;
+	}
+	.col-1{width:3.5555583rem;}
+	.col-2{width:7.1111117rem;}
+	.col-3{width:10.666667rem;}
+	.col-4{width:14.222223rem;}
+	.col-5{width:17.777772rem;}
+	.col-6{width:21.3333335rem;}
+	.col-7{width:24.8888891rem;}
+	.col-8{width:28.444447rem;}
+	.col-9{width:32.00025rem;}
+	.col-10{width:35.555556rem;}
+	.col-11{width:39.11114rem;}
+	.col-12{width:42.66667rem;}
+}
